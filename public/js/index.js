@@ -8,7 +8,3 @@ socket.on('disconnect', function() {
 socket.on('newMessage', function(message) {
     console.log('newMessage', message);
 });
-socket.emit('createMessage', {
-    from: 'max',
-    text: 'How are you!'
-});
